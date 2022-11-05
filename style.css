@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans";
+}
+
+.main-container {
+    background-color: #1646d5;
+    width: 100vw;
+    height: 100vh;
+}
+
+.sidebar {
+    background-color: #202324;
+    height: 100vh;
+    width: 4.5em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5%;
+}
+
+.home {
+    background-color: #36383e;
+    width: 3.1em;
+    height: 3.1em;
+    margin-top: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    transition: all 0.2s ease-out;
+}
+
+.home:hover {
+    border-radius: 35%;
+    background-color: #5865f2;
+}
+
+.home:hover i {
+    color: #fffefe;
+}
+
+.home i {
+    color: #dcdcdf;
+}
+
+.divider {
+    background-color: #36383e;
+    height: 1px;
+    width: 30px;
+    opacity: 50%;
+}
+
+.guilds {
+    background-color: #36383e;
+    color: #b5b6b9;
+    font-weight: 900;
+    font-size: 1.3em;
+    width: 2.4em;
+    height: 2.4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    transition: all 0.2s ease-out;
+    cursor: default;
+}
+
+.guilds:hover {
+    border-radius: 35%;
+    background-color: #5965f3;
+    color: #e9ebff;
+}
+
+.util {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #36383e;
+    border-radius: 100%;
+    height: 3.1em;
+    width: 3.1em;
+    transition: all 0.2s ease-out;
+    cursor: default;
+}
+
+.util:hover {
+    background-color: #3ba55d;
+    border-radius: 35%;
+}
+
+.util:hover i {
+    color: #fefffe;
+}
+
+.util:hover .create {
+    color: #fefffe;
+}
+
+.util > .create {
+    margin-bottom: 10%;
+    font-size: 2em;
+    color: #3ba45c;
+}
+
+.fa-compass {
+    margin-top: 10%;
+    font-size: 1.4em;
+    color: #3ba45c;
+}
+
+
